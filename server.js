@@ -13,7 +13,8 @@ db.once('open', () => console.log('Connected to Database'))
 
 app.use(express.json())
 
-const booksRouter = require("./routes/books.js")
+const booksRouter = require("./routes/books")
+
 app.use('/books', booksRouter)
 
 
