@@ -2,6 +2,10 @@ const express = require('express')
 const router = express.Router()
 const Books = require('../models/books')
 
+const bookList = require('./data/bookInventory')
+const authorsProfiles = require('./data/authorProfiles')
+const genresOfBooks = require('./data/typeofbooks')
+
 //Getting all 
 router.get('/', async (req, res) => {
     try {
