@@ -1,122 +1,123 @@
 const authorsProfiles = [
     {
         id: 0,
-        name: "",
+        name: "Kennedy Ryan",
         book: [
             {
                 id: 1,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "SCORE",
+                releaseDate: ('2026'), 
+                
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 1,
+        name: "Clarice Lispector",
         book: [
             {
                 id: 2,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "Hour of The Star",
+                releaseDate: ('1977'), 
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 2,
+        name: "Hon Lai-chu",
         book: [
             {
                 id: 3,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "Mending Bodies",
+                releaseDate: ('2010'), 
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 3,
+        name: "Shahrnush Parsipur",
         book: [
             {
                 id: 4,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "Women Without Men",
+                releaseDate: ('1989'),
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 4,
+        name: "Hon Lai-chu",
         book: [
             {
                 id: 5,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "Mending Bodies",
+                releaseDate: ('2025'),
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 5,
+        name: "Shahrnush Parsipur",
         book: [
             {
                 id: 6,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "Women Without Men",
+                releaseDate: ('1989'),
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 6,
+        name: "John Steinbeck",
         book: [
             {
                 id: 7,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "East of Eden",
+                releaseDate: ('1952'),
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 7,
+        name: "Gloria Naylor",
         book: [
             {
                 id: 8,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "Mama Day",
+                releaseDate: ('1988'),
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 8,
+        name: "Neil Postman",
         book: [
             {
                 id: 9,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "Amusing Ourselves to Death: Public Discourse in the Age of Show Business",
+                releaseDate: ('1985'),
             },
         ]
     },
      {
-        id: 0,
-        name: "",
+        id: 9,
+        name: "Sarah Damoff",
         book: [
             {
                 id: 10,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "The Bright Years",
+                releaseDate: ('2025'),
             },
         ]
     },
      {
-        id: 0,
+        id: 10,
         name: "",
         book: [
             {
                 id: 11,
-                bookTitle: "",
-                releaseDate: ,
+                bookTitle: "The Count of Monte Cristo",
+                releaseDate: ('1846'),
             },
         ]
     },

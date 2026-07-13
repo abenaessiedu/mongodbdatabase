@@ -1,103 +1,92 @@
 const bookInventory = [
   {
     "id": 1,
-    "name": "",
-    "author": "",
+    "name": "SCORE",
+    "author": "Kennedy Ryan",
     "genres": [
-      "",
-      ""
+      "Romance",
+      
     ]
   },
    {
     "id": 2,
-    "name": "",
-    "author": "",
+    "name": "Hour of the Star",
+    "author": "Clarice Lispector",
     "genres": [
-      "",
-      ""
+      "Fiction",
+     
     ]
   },
    {
     "id": 3,
-    "name": "",
-    "author": "",
+    "name": "Lover Girl",
+    "author": "Nicole Sellew",
     "genres": [
-      "",
-      ""
+      "Fiction",
+     
     ]
   },
    {
     "id": 4,
-    "name": "",
-    "author": "",
+    "name": "Mending Bodies",
+    "author": "Hon Lai-chu",
     "genres": [
-      "",
-      ""
+      "Dystopian", 
     ]
   },
   {
     "id": 5,
-    "name": "",
-    "author": "",
+    "name": "Women Without Men",
+    "author": "Shahrnush Parsipur",
     "genres": [
-      "",
-      ""
+      "Fantasy",
+      
     ]
   },
    {
     "id": 6,
-    "name": "",
-    "author": "",
+    "name": "East of Eden",
+    "author": "John Steinbeck",
     "genres": [
-      "",
-      ""
+      "Historical",
+     
     ]
   },
    {
     "id": 7,
-    "name": "",
-    "author": "",
+    "name": "Mama Day",
+    "author": "Gloria Naylor",
     "genres": [
-      "",
-      ""
+      "Magical Realism",
+      
     ]
   },
    {
     "id": 8,
-    "name": "",
-    "author": "",
+    "name": "Amusing Ourselves to Death: Public Discourse in the Age of Show Business",
+    "author": "Neil Postman",
     "genres": [
-      "",
-      ""
+      "Non-Fiction",
     ]
   },
    {
     "id": 9,
-    "name": "",
-    "author": "",
+    "name": "The Bright Years",
+    "author": "Sarah Damoff",
     "genres": [
-      "",
-      ""
+      "Fiction",
     ]
   },
    {
     "id": 10,
-    "name": "",
-    "author": "",
+    "name": "Alexandre Dumas",
+    "author": "The Count of Monte Cristo",
     "genres": [
-      "",
-      ""
+      "Adventure",
+    
     ]
   },
-   {
-    "id": 11,
-    "name": "",
-    "author": "",
-    "genres": [
-      "",
-      ""
-    ]
-  },
+  
 ]
 
 export default bookInventory
