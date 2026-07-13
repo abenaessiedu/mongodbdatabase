@@ -18,33 +18,39 @@ res.json(res.book)
 })
 //Creating one
 router.post('/', (req, res) => {
-    const book = new Book({
-    name: req.body.name
-    
+    const book = new bookTitle({
+    bookTitle: req.body.bookTitle, 
+    authorName: req.body.authorName
     })
     try {
     const newBook = await books.save()
     res.status(201).json(newBook)
     } catch (err) {
-        res.status(400)
+    res.status(400).json({message: err.message})
     }
 })
 //Updating one
-router.patch('/:id', getBook, (req, res) => {
-if (req.body.name != null) {
-    res.book.name = res.body.name 
+router.patch('/:id', getBook, async (req, res) => {
+if (req.body.bookTitle != null) {
+    res.book.bookTitle = res.body.bookTitle 
 }
-if (req.body.name != null) {
-    res.book.name = res.body.name 
+if (req.body.authorName != null) {
+    res.book.authorName = res.body.authorName 
+} try {
+const updatedBook = await res.book.save()
+res.json(updatedBook)
+} catch (err) {
+    res.status(400).json({message: err.message})
+
 }
-})
+}) 
 
 
 //Deleting one 
 router.delete('/:id', getBook, async (req, res) => {
 try {
-await res.subscriber.remove()
-res.json({message:"Deleted Book!"})
+await res.book.remove()
+res.json({message: "Deleted Book!"})
 } catch(err) {
 res.status(500).json({message: err.message})
 }
