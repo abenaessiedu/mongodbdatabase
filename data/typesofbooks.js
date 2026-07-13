@@ -1,18 +1,28 @@
 export const types = {
     romance: {
-       number: , 
+       number: 1, 
         
     },
     fiction: {
-        number: , 
+        number: 3, 
     },
-    graphic: {
-        number: , 
+    adventure: {
+        number: 1, 
     },
     fantasy :{
-        number: , 
+        number: 1, 
     },
-    spiritual: {
-        number: , 
+    dystopian: {
+        number: 1, 
     },
+     historical: {
+        number: 1, 
+    },
+      magicalRealism: {
+        number: 1, 
+    },  
+    nonFiction: {
+        number: 1, 
+    },
+
     }
